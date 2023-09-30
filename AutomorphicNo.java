@@ -1,14 +1,14 @@
 import java.util.*;
 class AutomorphicNo {
     public static void main(String[]args) {
-        int num = 0;
+        int number = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");   
         int n = sc.nextInt();
         while(n != 0) 
         {
             int r = n %10;
-            num++;
+            number++;
             n=n/10;
         }
         int sq = n*n;
